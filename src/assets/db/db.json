@@ -1,0 +1,36 @@
+{
+  "nhatkytuan": [
+    {
+      "id": 1,
+      "ngay": "Thu 2",
+      "nd": "xay dung bao cao tra loi cv ",
+      "kq": "ra ban draft",
+      "chilenh": "123"
+    },
+    {
+      "id": 2,
+      "ngay": "Thu 3",
+      "nd": "di lam",
+      "kq": "chua hoan thanh",
+      "chilenh": ""
+    },
+    {
+      "id": 3,
+      "ngay": "Thu 4",
+      "nd": "Xay dung de cuong nv 2022",
+      "kq": "Chốt các nội dung để phác thảo kế hoạch "
+    },
+    {
+      "id": 4,
+      "ngay": "Thứ 5",
+      "nd": "Phối hợp xây dựng cổng TTĐT qk1",
+      "kq": "ra bản Draft"
+    },
+    {
+      "ngay": "Thu 6",
+      "nd": "xay dung de cuong hop",
+      "kq": "ban draft de cuong",
+      "id": 5
+    }
+  ]
+}

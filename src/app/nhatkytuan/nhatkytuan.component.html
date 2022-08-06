@@ -1,0 +1,42 @@
+<div class="card" >
+  <div class="card-header">Nhật ký công việc trong tuần</div>
+  <div class="card-body">
+    <table  class="table table-bordered border-primary">
+      <thead>
+        <tr>
+          <th>TT</th>
+          <th>Ngay</th>
+          <th>Noi dung</th>
+          <th>Ket qua</th>
+          <th>Chi lenh</th>
+          <th>
+            <a type="button" class="btn btn-danger" id="b1"  [routerLink]="['/addwork']" >Them</a>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of nhatky">
+          <td scope="row">{{item.id}}</td>
+          <td>{{item.ngay}}</td>
+          <td>{{item.nd}}</td>
+          <td>{{item.kq}}</td>
+          <td>{{item.chilenh}}</td>
+            <td>
+              <div class="example">
+                <a type="button" class="btn btn-success" id="b2" [routerLink]="['/nhatkydetail', item.id]" >
+                  Chi tiết nhật ký
+                </a>
+              </div>
+              
+            </td>
+            
+        </tr>
+      </tbody>
+    </table>
+    
+  </div>
+</div>
+
+
+
+

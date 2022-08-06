@@ -1,0 +1,30 @@
+<form class="row g-3" >
+  <div class="row g-3 align-items-center">
+    <div class="col-12">
+     <label for="inputAddress" class="form-label" >STT</label>
+     <input type="text" class="form-control" name="id" id="id" [(ngModel)]="congviec.id" >
+   </div>
+   <div class="col-12">
+     <label for="inputAddress" class="form-label">Ngay</label>
+     <input type="text" class="form-control" name="ngay" id="ngay"   [(ngModel)]="congviec.ngay">
+   </div>
+     
+   <div class="col-12">
+     <label for="inputAddress" class="form-label">Noi dung cong viec</label>
+     <input type="text" class="form-control" name="nd" id="nd" [(ngModel)]="congviec.nd">
+   </div>
+   <div class="col-12">
+     <label for="inputAddress" class="form-label">Ket qua</label>
+     <input type="text" class="form-control" name="nd" id="nd" [(ngModel)]="congviec.kq">
+   </div>
+   <div class="col-12">
+     <label for="inputAddress2" class="form-label">Chi lenh</label>
+     <input type="text" class="form-control" name="chilenh" id="chilenh" [(ngModel)]="congviec.chilenh">
+   </div>
+   
+   
+   <div class="col-12">
+     <button type="submit" class="btn btn-primary" (click)="save()">Cap nhat</button>
+   </div>
+  </div>
+ </form>

@@ -1,0 +1,41 @@
+
+<!-- component update -->
+<div class="card">
+  <div class="card-header">
+    Chi tiết nhật ký
+  </div>
+  <div class="card-body">
+    
+      <form class="row g-3" >
+        <div class="row g-3 align-items-center" *ngIf="nhatky">
+          <!-- <div class="col-12">
+          <label for="inputAddress" class="form-label" >STT</label>
+          <input type="text" class="form-control" name="id" id="id" [(ngModel)]="nhatky.id">
+        </div> -->
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Noi dung cong viec</label>
+          <input type="text" class="form-control" name="id" id="id" [(ngModel)]="nhatky.nd" >
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Ket qua</label>
+          <input type="text" class="form-control" name="kq" id="kq" [(ngModel)]="nhatky.kq">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Chi lenh</label>
+          <input type="text" class="form-control" name="chilenh" id="chilenh" [(ngModel)]="nhatky.chilenh">
+        </div>
+        </div>
+      </form>
+  </div>
+  <div class="card-footer">
+    <button type="submit" class="btn btn-primary" (click)="onupdate()">Cap nhat</button>
+
+  </div>
+</div>
+
+
+
+
+
+
+
